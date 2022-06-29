@@ -1623,6 +1623,7 @@ function DiscordLib:Window(text)
 		if btntext=="DisabledTrueA" then
 			AlrightBtn:Remove()
 			MinimizeBtn:Remove()
+			MinimizeIcon:Remove()
 		end
 		
 		AlrightCorner.CornerRadius = UDim.new(0, 4)
