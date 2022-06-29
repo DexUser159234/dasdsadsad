@@ -696,7 +696,7 @@ function DiscordLib:Window(text)
 	end)
 	
 	UserPanelUserIcon.MouseButton1Click:Connect(function()
-		local NotificationHolder = Instance.new("TextButton")
+		local  Holder = Instance.new("TextButton")
 		NotificationHolder.Name = "NotificationHolder"
 		NotificationHolder.Parent = SettingsHolder
 		NotificationHolder.BackgroundColor3 = Color3.fromRGB(22,22,22)
@@ -1620,6 +1620,9 @@ function DiscordLib:Window(text)
 		AlrightBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 		AlrightBtn.TextSize = 13.000
 		AlrightBtn.AutoButtonColor = false
+		if btntext=="DisabledTrueA" then
+			AlrightBtn:Remove()
+		end
 		
 		AlrightCorner.CornerRadius = UDim.new(0, 4)
 		AlrightCorner.Name = "AlrightCorner"
