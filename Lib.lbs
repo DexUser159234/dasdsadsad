@@ -81,10 +81,8 @@ local function MakeDraggable(topbarobject, object)
 	)
 end
 
-local _G.GUIDGENERATED = game:GetService("HttpService"):GenerateGUID(false)
-
 local Discord = Instance.new("ScreenGui")
-Discord.Name = _G.GUIDGENERATED
+Discord.Name = "SpaceCometaX"
 Discord.Parent = game.CoreGui
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
