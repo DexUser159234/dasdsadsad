@@ -80,7 +80,7 @@ local function MakeDraggable(topbarobject, object)
 		end
 	)
 end
-
+local GUIDGENERATED = "SpaceCometaX"
 local Discord = Instance.new("ScreenGui")
 Discord.Name = "SpaceCometaX"
 Discord.Parent = game.CoreGui
